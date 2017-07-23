@@ -7,12 +7,13 @@
  "node_modules/.bin/rollup"  -c rollup-config.js
 
 # 在程序入口页index.html中引入"bulid.js"
-  <script src="build.js"></script>
+  <script src="dist/build.js"></script>
 
 # 工作流与便利脚本:npm脚本
     {
       "scripts": {
-        "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js"
+        "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
+        "serve:aot": "lite-server -c bs-config.aot.json"
       }
     }
 
