@@ -20,7 +20,7 @@
 # 先用JIT开发，再AOT发布
 
 #usage
-  npm run build:aot
-  复制/src/index-aot.html到/aot/index.html
-  node copy-dist-files
-  npm run serve:aot
+>npm run build:aot
+>复制/src/index-aot.html到/aot/index.html
+>node copy-dist-files
+>npm run serve:aot
