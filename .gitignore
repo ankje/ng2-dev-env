@@ -46,3 +46,4 @@ Thumbs.db
 /AOT/aot
 /AOT/package-lock.json
 /.vscode
+/.vs
