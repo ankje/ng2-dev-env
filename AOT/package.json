@@ -6,7 +6,7 @@
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
     "serve:aot": "lite-server -c bs-config.aot.json",
-
+    "source-map-explorer":"source-map-explorer aot/dist/build.js",
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
     "build:e2e": "tsc -p e2e/",
@@ -63,6 +63,7 @@
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^2.0.1",
+    "source-map-explorer": "^1.4.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
   },
