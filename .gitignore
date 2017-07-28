@@ -40,10 +40,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-/package-lock.json
 /.idea
 /.idea
 /AOT/aot
-/AOT/package-lock.json
 /.vscode
 /.vs

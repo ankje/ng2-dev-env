@@ -4,7 +4,7 @@ module.exports = function (config) {
   var _config = {
     basePath: '',
 
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine'],    
 
     files: [
       {pattern: './config/karma-test-shim.js', watched: false}
@@ -24,7 +24,7 @@ module.exports = function (config) {
       noInfo: true
     },
 
-    reporters: ['kjhtml'],
+    reporters: ['progress','kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
